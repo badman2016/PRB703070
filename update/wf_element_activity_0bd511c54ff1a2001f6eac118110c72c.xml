@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="Run Script">d0c7fe11eb013100fc5e8a7af106fee0</base_provider>
+        <category/>
+        <checked_out_by display_value="">arturo.ma@snc</checked_out_by>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_runscript.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"Input1","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform/>
+        <local_variables/>
+        <name>PRB</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"Output1","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>arturo.ma@snc</sys_created_by>
+        <sys_created_on>2016-09-09 18:30:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0bd511c54ff1a2001f6eac118110c72c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PRB</sys_name>
+        <sys_package display_value="PRB703070" source="sn_prb703070">b71519e14fc562005f2f8ff18110c702</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PRB703070">b71519e14fc562005f2f8ff18110c702</sys_scope>
+        <sys_update_name>wf_element_activity_0bd511c54ff1a2001f6eac118110c72c</sys_update_name>
+        <sys_updated_by>arturo.ma@snc</sys_updated_by>
+        <sys_updated_on>2016-09-09 18:30:28</sys_updated_on>
+        <version_container_id>77859da14fc562005f2f8ff18110c761</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=0bd511c54ff1a2001f6eac118110c72c"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out>2016-09-09 18:30:28</checked_out>
+        <checked_out_by display_value="">arturo.ma@snc</checked_out_by>
+        <published>false</published>
+        <sys_created_by>arturo.ma@snc</sys_created_by>
+        <sys_created_on>2016-09-09 18:30:28</sys_created_on>
+        <sys_id>8bd511c54ff1a2001f6eac118110c72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arturo.ma@snc</sys_updated_by>
+        <sys_updated_on>2016-09-09 18:30:28</sys_updated_on>
+        <valid_from/>
+        <valid_to/>
+        <version>2</version>
+        <version_container_id>77859da14fc562005f2f8ff18110c761</version_container_id>
+        <wf_element_definition display_value="PRB">0bd511c54ff1a2001f6eac118110c72c</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="PRB">0bd511c54ff1a2001f6eac118110c72c</activity_definition>
+        <condition/>
+        <derived_definition>3c9519e14fc562005f2f8ff18110c76d</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>cond1</name>
+        <order/>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>arturo.ma@snc</sys_created_by>
+        <sys_created_on>2016-09-09 18:30:28</sys_created_on>
+        <sys_id>4fd511c54ff1a2001f6eac118110c72e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>arturo.ma@snc</sys_updated_by>
+        <sys_updated_on>2016-09-09 18:30:28</sys_updated_on>
+    </wf_condition_default>
+    <wf_versionable action="update_multiple" query="version_container_id=77859da14fc562005f2f8ff18110c761^sys_id!=8bd511c54ff1a2001f6eac118110c72d">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=77859da14fc562005f2f8ff18110c761">
+        <new_activity_definition>0bd511c54ff1a2001f6eac118110c72c</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity. To update the activity, check out the workflow, select the activity, right click and select update activity to use the latest version.</notes>
+    </wf_activity>
+</record_update>
